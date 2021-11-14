@@ -14,11 +14,11 @@ public class CameraFocusOnTarget : SystemBase
     }
     protected override void OnUpdate()
     {
-        var playerEntity = GetEntityQuery(typeof(PlayerData)).GetSingletonEntity();
-        player = EntityManager.GetComponentData<Translation>(playerEntity);
+        //var playerEntity = GetEntityQuery(typeof(PlayerData)).get();
+        //player = EntityManager.GetComponentData<Translation>(playerEntity);
 
-        var cameraEntity = GetEntityQuery(typeof(CameraData)).GetSingletonEntity();
-        camera = EntityManager.GetComponentData<Translation>(cameraEntity);
-        camera.Value = player.Value;
+        //var cameraEntity = GetEntityQuery(typeof(CameraData)).GetSingletonEntity();
+        //camera = EntityManager.GetComponentData<Translation>(cameraEntity);
+        //camera.Value = player.Value;
     }
 }

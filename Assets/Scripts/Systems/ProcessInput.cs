@@ -12,7 +12,6 @@ public class ProcessInput : SystemBase
     {
         float inputH = Input.GetAxis("Horizontal");
         float inputV = Input.GetAxis("Vertical");
-        Debug.Log(inputH);
         Entities.ForEach((ref RawInputData input, ref MoveData moveData) => {
             input.InputH = inputH;
             input.InputV = inputV;

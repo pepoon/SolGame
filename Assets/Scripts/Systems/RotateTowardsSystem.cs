@@ -5,7 +5,7 @@ using Unity.Jobs;
 using Unity.Mathematics;
 using Unity.Transforms;
 
-public class RotateTowards : SystemBase
+public class RotateTowardsSystem : SystemBase
 {
     protected override void OnUpdate()
     {

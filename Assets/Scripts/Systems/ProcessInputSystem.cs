@@ -6,12 +6,14 @@ using Unity.Mathematics;
 using Unity.Transforms;
 using UnityEngine;
 
-public class ProcessInput : SystemBase
+public class ProcessInputSystem : SystemBase
 {
     protected override void OnUpdate()
     {
         float inputH = Input.GetAxis("Horizontal");
         float inputV = Input.GetAxis("Vertical");
+        inputH = inputH > 0 ? 1 : inputH < 0 ? -1 : 0;
+        inputV = inputV > 0 ? 1 : inputV < 0 ? -1 : 0;
         Entities.ForEach((ref RawInputData input, ref MoveData moveData) => {
             input.InputH = inputH;
             input.InputV = inputV;

@@ -32,7 +32,7 @@ public class CollisionSystem : SystemBase
         //var ecb = m_EndSimulationEcbSystem.CreateCommandBuffer();
         //var cmdBuffer = a.CreateCommandBuffer();
         var d = m_EndSimulationEcbSystem.PostUpdateCommands;
-        Entities.WithStructuralChanges().ForEach((in Translation translation, in EnemyTag enemy, in Entity e) =>
+        Entities.WithStructuralChanges().ForEach((ref Entity e, in Translation translation, in EnemyTag enemy) =>
         {
             var enemyPos = translation.Value;
             var collision = math.distancesq(enemyPos, playerPos) < 0.5f;

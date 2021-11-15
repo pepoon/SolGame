@@ -186,7 +186,7 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "0.1.6-preview.2",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "nuget.mono-cecil": "0.1.6-preview"
@@ -261,7 +261,7 @@
     },
     "com.unity.scriptablebuildpipeline": {
       "version": "1.9.0",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -384,7 +384,7 @@
     },
     "nuget.mono-cecil": {
       "version": "0.1.6-preview",
-      "depth": 2,
+      "depth": 3,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"

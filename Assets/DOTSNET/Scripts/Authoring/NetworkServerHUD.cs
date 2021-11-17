@@ -11,7 +11,7 @@ namespace DOTSNET
             NetworkServerAuthoring server = GetComponent<NetworkServerAuthoring>();
 
             // create GUI area
-            GUILayout.BeginArea(new Rect(15, 15, 220, 150));
+            GUILayout.BeginArea(new Rect(15, 15, 420, 350));
 
             // start server
             if (server.state == ServerState.INACTIVE)

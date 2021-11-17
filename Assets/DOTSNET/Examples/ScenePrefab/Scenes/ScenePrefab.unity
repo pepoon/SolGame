@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -173,73 +173,59 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15,
-        type: 3}
+    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15, type: 3}
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15,
-        type: 3}
+    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3
       objectReference: {fileID: 0}
-    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15,
-        type: 3}
+    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15,
-        type: 3}
+    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15,
-        type: 3}
+    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15,
-        type: 3}
+    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15,
-        type: 3}
+    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15,
-        type: 3}
+    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15,
-        type: 3}
+    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15,
-        type: 3}
+    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15,
-        type: 3}
+    - target: {fileID: 1417302158743145058, guid: 99549dae630244c90a6014600e0eec15, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1417302158743145084, guid: 99549dae630244c90a6014600e0eec15,
-        type: 3}
+    - target: {fileID: 1417302158743145084, guid: 99549dae630244c90a6014600e0eec15, type: 3}
       propertyPath: m_Name
       value: Monster in Scene
       objectReference: {fileID: 0}
-    - target: {fileID: 4052146230103919721, guid: 99549dae630244c90a6014600e0eec15,
-        type: 3}
+    - target: {fileID: 4052146230103919721, guid: 99549dae630244c90a6014600e0eec15, type: 3}
       propertyPath: sceneId
       value: 2870371524
       objectReference: {fileID: 0}
-    - target: {fileID: 4052146230103919721, guid: 99549dae630244c90a6014600e0eec15,
-        type: 3}
+    - target: {fileID: 4052146230103919721, guid: 99549dae630244c90a6014600e0eec15, type: 3}
       propertyPath: _prefabId
       value: 315c63c3a6ba426c973ea9ba8e6c89e9
       objectReference: {fileID: 0}
@@ -309,10 +295,12 @@ MonoBehaviour:
   Port: 7777
   NoDelay: 1
   Interval: 10
+  Timeout: 10000
   FastResend: 2
   CongestionWindow: 0
   SendWindowSize: 4096
   ReceiveWindowSize: 4096
+  NonAlloc: 1
   debugLog: 0
   statisticsGUI: 0
   statisticsLog: 0
@@ -340,7 +328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe24db1f638af43a4b70d6ebf287773e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  snapshotInterval: 0.05
+  snapshotInterval: 1
   disconnectFreezesScene: 1
 --- !u!4 &439658186
 Transform:
@@ -460,8 +448,7 @@ MonoBehaviour:
   startIfHeadless: 1
   tickRate: 60
   connectionLimit: 1000
-  snapshotInterval: 0.05
-  batchInterval: 0
+  snapshotInterval: 1
 --- !u!114 &477220597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,12 +462,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Port: 7777
+  DualMode: 1
   NoDelay: 1
   Interval: 10
+  Timeout: 10000
   FastResend: 2
   CongestionWindow: 0
   SendWindowSize: 4096
   ReceiveWindowSize: 4096
+  NonAlloc: 1
   debugLog: 0
   statisticsGUI: 0
   statisticsLog: 0

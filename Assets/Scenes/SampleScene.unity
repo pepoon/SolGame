@@ -7287,7 +7287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe24db1f638af43a4b70d6ebf287773e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  snapshotInterval: 0.05
+  snapshotInterval: 1
   disconnectFreezesScene: 1
 --- !u!4 &850124515
 Transform:
@@ -7520,7 +7520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabs:
-  - {fileID: 4179342910076160031, guid: 7a42cf2b7f574af4993989dbb71088dd, type: 3}
+  - {fileID: 429419401742878221, guid: 8ce33312e93b0944696373425e7b694a, type: 3}
 --- !u!4 &1786709985
 Transform:
   m_ObjectHideFlags: 0

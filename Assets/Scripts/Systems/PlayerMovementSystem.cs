@@ -16,6 +16,7 @@ namespace SolGame
     {
         protected override void OnUpdate()
         {
+
             // get input
             float horizontal = Input.GetAxis("Horizontal");
             float vertical = Input.GetAxis("Vertical");

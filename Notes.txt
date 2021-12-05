@@ -1,0 +1,3 @@
+
+AWS GameLift to run the unity server build.
+https://aws.amazon.com/blogs/gametech/creating-a-battle-royale-game-using-unity-and-amazon-gamelift/
